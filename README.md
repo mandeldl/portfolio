@@ -7,5 +7,5 @@ Portfolio/Homepage to reside at davidmandel.net
 - [x] activate takana
 
 #Miscellaneous notes
--Coolors lets you export .scss!
--Does it make more sense to link to normalize and skeleton in the head, and not import them into base until ready for production?
+*Coolors lets you export .scss!
+*Does it make more sense to link to normalize and skeleton in the head, and not import them into base until ready for production?
