@@ -8,3 +8,4 @@ Portfolio/Homepage to reside at davidmandel.net
 
 #Miscellaneous notes
 -Coolors lets you export .scss!
+-Does it make more sense to link to normalize and skeleton in the head, and not import them into base until ready for production?
