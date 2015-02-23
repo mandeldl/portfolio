@@ -1,14 +1,13 @@
 #links {
-	height: 150px;
 	text-align: center;
 }
 .icon {
+	margin: 50px 10px;
 	display: inline-block;
 	width: 32px;
 	height: 32px;
 	background-repeat: no-repeat;
 	background-image: url("../images/links-sprite.png");
-	background-color: #fff;
 }
 .icon-github {
 	background-position: 0 0;
