@@ -1,10 +1,17 @@
 header {
 	padding: 40px 0;
 	background-color: $color2;
+	background-image: url("../images/david-slc-bw.jpeg");
+	background-size: cover;
 	text-align: center;
+	color: $color1;
 
 	.button {
 		background-color: $color5;
 		color: black;
+	}
+
+	h3, h2, p {
+		// background-color: rgba(0,0,0,0.5);
 	}
 }
