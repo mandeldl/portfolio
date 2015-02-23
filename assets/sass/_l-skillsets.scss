@@ -1,5 +1,7 @@
 #skillsets {
 	padding: 40px 0;
+	// Little Jeet magic:
+	@include center(960px);
 	text-align: center;
 }
 

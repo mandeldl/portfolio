@@ -1,19 +1,20 @@
 #work {
+	display: block;
 }
 
-#work-heading {
-	max-width: 100%;
-	height: auto;
-}
+// #work-heading {
+// 	width: 100%;
+// 	max-width: 960px;
+// 	min-height: 250px;
+// }
 
 .heading-image {
 	margin-bottom: 50px;
 }
 
 .work-sample {
-	// Let's try Jeet here
-	
 	text-align: center;
+
 	&:hover {
 		background-color: $color2;
 	}
