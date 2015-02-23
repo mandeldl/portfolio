@@ -1,14 +1,23 @@
+#work {
+}
+
 .work-sample {
 	text-align: center;
+	&:hover {
+		background-color: $color2;
+	}
+
+	a {
+		text-decoration: none;
+		&:hover {
+			color: $color4;
+		}
+	}
 }
 
 .mac-wrapper {
-	width: 400px;
-	height: 300px;
+	@include backgroundImage($height: 300px, $size:80%, $position:center top);
 	background-image: url("../images/mac-computer-monitor.png");
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center top;
 }
 
 .mac-wrapper>div {
@@ -18,3 +27,11 @@
 #seatswap {
 		background-image: url('../images/seatswap-screenshot.jpg');
 	}
+
+#younggunnerfilms {
+	background-image: url("../images/younggunnerfilms-screenshot.png")
+}
+
+#youarethewayout {
+	background-image: url("../images/youarethewayout-screenshot.jpg")
+}
