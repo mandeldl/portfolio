@@ -5,6 +5,9 @@
 	background-color: $color4;
 	a {
 		text-decoration: none;
-		color: $color1;
+		color: white;
+	}
+	&:hover {
+		background-color: saturate($color4, 40%);
 	}
 }
