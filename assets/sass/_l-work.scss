@@ -1,0 +1,22 @@
+.work-sample {
+	text-align: center;
+	.seatswap-screenshot {
+		width: 400px;
+		height: 190px;
+		background-image: url("../images/seatswap-screenshot.jpg");
+		background-size: 70%;
+		background-repeat: no-repeat;
+		background-position: center 31px;
+
+	}
+}
+
+.mac-wrapper {
+	width: 400px;
+	height: 300px;
+	// overflow: hidden;
+	background-image: url("../images/mac-computer-monitor.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
