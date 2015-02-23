@@ -1,0 +1,12 @@
+@mixin backgroundImage(	$width:400px,
+						$height:190px, 
+						$size:70%, 
+						$repeat: no-repeat, 
+						$position: center center
+						){
+	width: $width;
+	height: $height;
+	background-size: $size;
+	background-repeat: $repeat;
+	background-position: $position;
+}
