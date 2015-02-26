@@ -1,5 +1,4 @@
 #work {
-	display: block;
 }
 
 // #work-heading {
@@ -13,6 +12,7 @@
 }
 
 .work-sample {
+	padding: 25px 0;
 	text-align: center;
 
 	&:hover {
@@ -26,25 +26,35 @@
 			color: $color4;
 		}
 	}
-}
 
-.mac-wrapper {
-	@include backgroundImage($height: 300px, $size:80%, $position:center top);
-	background-image: url("../images/mac-computer-monitor.png");
-}
-
-.mac-wrapper>div {
-	@include backgroundImage(400px, 190px, 70%, no-repeat, center 31px);
-}
-
-#seatswap {
-		background-image: url('../images/seatswap-screenshot.jpg');
+	.mac-wrapper {
+		margin: 0 auto;
+		width: 400px;
+		height: 390px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url("../images/mac-computer-monitor-sm.png");
+		position: relative;
+		z-index: 10;
+		overflow: hidden;
 	}
 
-#younggunnerfilms {
-	background-image: url("../images/younggunnerfilms-screenshot.png")
+	.sample-shot {
+		width: 365px;
+		height: 203px;
+		position: relative;
+		top: 37px;
+		border-radius: 5px;
+	}
+}
+@media screen and (min-width:780px) {
+	.work-sample {
+	//Use Jeet to make 3 columns on med devices	
+		@include column(1/2, $cycle: 3);
+		text-align: center;
+	}
 }
 
-#youarethewayout {
-	background-image: url("../images/youarethewayout-screenshot.jpg")
+.clearfix {
+	clear:both;
 }
