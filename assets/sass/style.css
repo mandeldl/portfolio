@@ -982,8 +982,7 @@ header {
     clear: both; }
 
 .skillset {
-  padding-bottom: 15px;
-  border-bottom: 1px solid #d3dee2; }
+  padding-bottom: 15px; }
   .skillset img {
     width: 100px; }
   .skillset h5 {
@@ -991,6 +990,22 @@ header {
   .skillset p {
     margin: 0 auto;
     width: 80%; }
+  @media screen and (min-width: 640px) {
+    .skillset {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 31.33333%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .skillset:before, .skillset:after {
+        content: '';
+        display: table; }
+      .skillset:after {
+        clear: both; }
+      .skillset:last-child {
+        margin-right: 0%; } }
 
 #about {
   background-color: #bdc4a7; }
@@ -1010,13 +1025,11 @@ header {
     vertical-align: middle;
     margin-right: 5px; }
 
-#work {
-  display: block; }
-
 .heading-image {
   margin-bottom: 50px; }
 
 .work-sample {
+  padding: 25px 0;
   text-align: center; }
   .work-sample:hover {
     background-color: #95afba; }
@@ -1025,30 +1038,45 @@ header {
     color: #000; }
     .work-sample a:hover {
       color: #d5e1a3; }
+  .work-sample .mac-wrapper {
+    margin: 0 auto;
+    width: 400px;
+    height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/mac-computer-monitor-sm.png");
+    position: relative;
+    z-index: 10;
+    overflow: hidden; }
+  .work-sample .sample-shot {
+    width: 365px;
+    height: 203px;
+    position: relative;
+    top: 37px;
+    border-radius: 5px; }
 
-.mac-wrapper {
-  width: 400px;
-  height: 300px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-image: url("../images/mac-computer-monitor.png"); }
-
-.mac-wrapper > div {
-  width: 400px;
-  height: 190px;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center 31px; }
-
-#seatswap {
-  background-image: url("../images/seatswap-screenshot.jpg"); }
-
-#younggunnerfilms {
-  background-image: url("../images/younggunnerfilms-screenshot.png"); }
-
-#youarethewayout {
-  background-image: url("../images/youarethewayout-screenshot.jpg"); }
+@media screen and (min-width: 780px) {
+  .work-sample {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+    text-align: center; }
+    .work-sample:before, .work-sample:after {
+      content: '';
+      display: table; }
+    .work-sample:after {
+      clear: both; }
+    .work-sample:nth-of-type(3n) {
+      margin-right: 0%;
+      float: right; }
+    .work-sample:nth-of-type(3n + 1) {
+      clear: both; } }
+.clearfix {
+  clear: both; }
 
 #links {
   display: block;
