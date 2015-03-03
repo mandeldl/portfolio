@@ -1,17 +1,26 @@
 header {
-	padding: 40px 0;
+	padding: 80px 0 20px;
 	background-color: $color2;
-	background-image: url("../images/david-slc-bw.jpeg");
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.5)
+    ),url("../images/david-slc.jpeg");
 	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: no-repeat;
 	text-align: center;
-	color: $color1;
+	color: white;
 
-	.button {
-		background-color: $color5;
-		color: black;
-	}
-
-	h3, h2, p {
-		// background-color: rgba(0,0,0,0.5);
+	.intro-text {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-shadow: 1px 1px 3px black;
+		margin-top: 100px;
+		margin-bottom: 20px;
+		@media screen and (min-width: 768px) {
+			margin-top: 400px;
+		}
 	}
 }
