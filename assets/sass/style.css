@@ -953,15 +953,25 @@ hr {
 
 /* Coolors Exported Palette - coolors.co/3f7cac-95afba-bdc4a7-d5e1a3-e2f89c */
 header {
-  padding: 40px 0;
+  padding: 80px 0 20px;
   background-color: #95afba;
-  background-image: url("../images/david-slc-bw.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)), url("../images/david-slc.jpeg");
   background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
   text-align: center;
-  color: #3f7cac; }
-  header .button {
-    background-color: #e2f89c;
-    color: black; }
+  color: white; }
+  header .intro-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 100px;
+    margin-bottom: 20px; }
+    @media screen and (min-width: 768px) {
+      header .intro-text {
+        margin-top: 400px; } }
 
 #skillsets {
   padding: 40px 0;
@@ -1008,22 +1018,19 @@ header {
         margin-right: 0%; } }
 
 #about {
-  background-color: #bdc4a7; }
+  background-color: #bdc4a7;
+  padding: 35px 0; }
+  #about a {
+    color: white; }
   #about h3, #about p {
     margin-left: auto;
     margin-right: auto;
     width: 90%; }
 
-#testimonials {
-  padding: 45px 0;
-  text-align: center; }
-  #testimonials h3 {
-    font-weight: 100; }
-  #testimonials img {
-    width: 50px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 5px; }
+#technologies ul {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none; }
 
 .heading-image {
   margin-bottom: 50px; }
