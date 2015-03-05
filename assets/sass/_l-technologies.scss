@@ -1,7 +1,12 @@
 #technologies {
+	margin-top: 25px;
+	h3 {
+		text-align: center;
+	}
 	ul {
-		width: 80%;
 		margin: 0 auto;
+		width: 80%;
+		max-width: 400px;
 		list-style: none;
 	}
 }
