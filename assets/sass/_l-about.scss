@@ -1,4 +1,14 @@
 #about {
+
+}
+
+.image-grid img {
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+}
+
+.about-text {
 	background-color: $color3;
 	padding: 35px 0;
 
@@ -11,5 +21,29 @@
 		margin-right: auto;
 		width: 90%;
 	}
+}
 
+@media (min-width: 700px) {
+	.image-grid {
+		width: 25%;
+		img {
+			display: block;
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+	.grid_1, .about-text {
+		display: inline-block;
+		float: left;
+	}
+
+	.grid_2 {
+		float: right;
+	}
+
+	.about-text {
+		width: 50%;
+		margin: 0;
+	}
 }

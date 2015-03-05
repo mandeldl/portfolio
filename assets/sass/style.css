@@ -1044,6 +1044,9 @@ header {
   margin: 0 auto;
   list-style: none; }
 
+#work {
+  clear: both; }
+
 .work-sample {
   padding: 25px 0;
   text-align: center; }
@@ -1086,10 +1089,10 @@ header {
       display: table; }
     .work-sample:after {
       clear: both; }
-    .work-sample:nth-of-type(3n) {
+    .work-sample:nth-of-type(2n) {
       margin-right: 0%;
       float: right; }
-    .work-sample:nth-of-type(3n + 1) {
+    .work-sample:nth-of-type(2n + 1) {
       clear: both; } }
 @media (min-width: 910px) {
   .work-sample {
@@ -1106,15 +1109,15 @@ header {
       display: table; }
     .work-sample:after {
       clear: both; }
-    .work-sample:nth-of-type(3n) {
+    .work-sample:nth-of-type(2n) {
       margin-right: 3%;
       float: left; }
-    .work-sample:nth-of-type(3n + 1) {
+    .work-sample:nth-of-type(2n + 1) {
       clear: none; }
-    .work-sample:nth-of-type(4n) {
+    .work-sample:nth-of-type(3n) {
       margin-right: 0%;
       float: right; }
-    .work-sample:nth-of-type(4n + 1) {
+    .work-sample:nth-of-type(3n + 1) {
       clear: both; } }
 .clearfix {
   clear: both; }
