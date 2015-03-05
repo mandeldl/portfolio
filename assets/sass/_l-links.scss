@@ -9,6 +9,13 @@
 	height: 64px;
 	background-repeat: no-repeat;
 	background-image: url("../images/sprite.png");
+	@media (min-width:680px) {
+		margin: 50px 10px;
+	}
+
+	@media (min-width:910px) {
+		margin: 50px 20px;
+	}
 }
 
 .icon-mail4 {
