@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 40px;
 	text-align: center;
-	background-color: $color4;
+	background-color: #A3B7E1;
 	a {
 		text-decoration: none;
 		color: white;
 	}
 	&:hover {
-		background-color: saturate($color4, 40%);
+		background-color: saturate(#A3B7E1, 40%);
 	}
 }
